@@ -2,29 +2,21 @@ Hospital Management System
 This is a beginner-friendly backend application for a Hospital Management System developed using Java and JDBC. The project demonstrates fundamental concepts of database connectivity and object-oriented programming by managing patient, doctor, and appointment data.
 
 Key Features
-Patient Management: Add new patients and view existing patient details.
-
-Doctor Management: View a list of available doctors.
-
-Appointment Scheduling: Book new appointments for patients with doctors.
-
-Data Persistence: All data is stored in a MySQL database.
+ 1. Patient Management: Add new patients and view existing patient details.
+ 2. Doctor Management: View a list of available doctors.
+ 3. Appointment Scheduling: Book new appointments for patients with doctors.
+ 4. Data Persistence: All data is stored in a MySQL database.
 
 Technologies Used
-Java: The core programming language for the application logic.
-
-JDBC (Java Database Connectivity): Used to connect the Java application to the MySQL database.
-
-MySQL: The relational database used to store all patient, doctor, and appointment data.
+ 1. Java: The core programming language for the application logic.
+ 2. JDBC (Java Database Connectivity): Used to connect the Java application to the MySQL database.
+ 3.MySQL: The relational database used to store all patient, doctor, and appointment data.
 
 Prerequisites
-To run this project, you need to have the following installed on your system:
-
-Java Development Kit (JDK) 8 or higher
-
-MySQL Server
-
-MySQL JDBC Driver: You will need to download and include this in your project's build path.
+ 1. To run this project, you need to have the following installed on your system:
+ 2. Java Development Kit (JDK) 8 or higher
+ 3. MySQL Server
+ 4. MySQL JDBC Driver: You will need to download and include this in your project's build path.
 
 Getting Started
 Follow these steps to set up and run the project locally.
@@ -64,13 +56,10 @@ cd Hospital-Management-System
 4. Run the Application
    Execute the Main.java or HospitalManagementSystem.java file to run the main application. You will be presented with a command-line interface to interact with the system.
 
-5.Usage
+5. Usage
    Once the application is running, you can follow the on-screen menu to perform operations such as:
-
    Adding a new patient.
-
    Viewing available doctors.
-
    Booking a new appointment.
 
 
