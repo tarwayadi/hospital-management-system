@@ -21,12 +21,7 @@ Prerequisites
 Getting Started
 Follow these steps to set up and run the project locally.
 
-1. Clone the Repository
-Bash
-git clone https://github.com/prabhatthakuryt/Hospital-Management-System.git
-cd Hospital-Management-System
-
-2. Set Up the Database
+1. Set Up the Database
     1. Open your MySQL client (e.g., MySQL Workbench or command line).
     2. Create a new database named hospital_management.
 
@@ -48,15 +43,15 @@ cd Hospital-Management-System
         age INT NOT NULL,
         gender VARCHAR(10) NOT NULL
         );
-3. Configure Database Connection
+2. Configure Database Connection
    1. Open the project in your favorite IDE (e.g., IntelliJ IDEA, Eclipse).
    2. Locate the database connection class (e.g., DatabaseConnection.java).
    3.Update the url, username, and password variables to match your MySQL server configuration.
 
-4. Run the Application
+3. Run the Application
    Execute the Main.java or HospitalManagementSystem.java file to run the main application. You will be presented with a command-line interface to interact with the system.
 
-5. Usage
+4. Usage
    Once the application is running, you can follow the on-screen menu to perform operations such as:
    Adding a new patient.
    Viewing available doctors.
